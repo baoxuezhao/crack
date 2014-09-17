@@ -1,0 +1,14 @@
+1. Prime Numbers
+
+1.1 Check if a number is a prime number: "https://github.com/starmsg/crack/blob/master/chapter7/CheckForPrimality.cpp"
+1.2 generating a list of prime numbers from 1 to n: "PrimeListGenerating.cpp".
+1.3 calculating the greatest common divisor(GCD or GCF) Euclidean Method: "gcd.cpp"
+1.4 calculating the least common multiple (LCM): Reduction by the greatest common divisor LCM(a,b) = |a*b|/GCD(a,b);
+
+2. Probability
+
+P(A and B) = P(B given A) P(A)
+P(A or B) = P(A) + P(B) - P(A and B)) 
+
+If A and B are independent, then P(A and B) = P(A)*P(B) since P(B given A) = P(B)
+If A and B are mutual exclusive, then P(A and B) =  0, P(A or B) = P(A) + P(B)
