@@ -10,8 +10,8 @@ int computeGCD(int a, int b)
 	while(a)
 	{
 		int t = b%a;
-		a = t;
 		b = a;
+		a = t;
 	}
 	return b;
 }
