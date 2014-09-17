@@ -1,6 +1,5 @@
-//solve 7.7 question
+//Method 1:
 //copied from others
-
 int getKthNum(int k)
 {
 	if(k == 0)
@@ -35,3 +34,38 @@ int getKthNum(int k)
 	}
 	return val;
 }
+
+//method 2, from geeksforgeeks
+int uglyNumber(int k)
+{
+	int count2 = 0;
+	int count3 = 0;
+	int count5 = 0;
+
+	if(k == 1) return 1;
+
+	vector<int> result;
+	result.push_back(1);
+	int cur = 0;
+
+	for(int i=1; i<k; i++)
+	{
+		cur = std::min(result[count2]*3, std::min(result[count3]*5, result[count5]*7));
+		result.push_back(cur);
+		if(cur == result[count2]*3)
+			count2++;
+
+		if(cur == result[count3]*5)
+			count3++;
+
+		if(cur == result[count5]*7)
+			count5++;
+	}
+	return cur;
+}
+
+
+
+
+
+
