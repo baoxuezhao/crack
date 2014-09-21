@@ -1,0 +1,8 @@
+Dividing scheme when data is too large to fit in memory.
+1. using disk storage and split the record in the data into M files using hashing, store the contents of record u in file hash(u)%M. Then process each split in memory.
+2. alternatively, hashing the records in the data and send them into the memory of mutiple(M) machines. Then process the data on each machine in parallel.
+
+Advantage of solution 2:
+parallel processing, fast
+Disadvantage of Solution 2:
+too many machines, node failure, complicate for implementation.
