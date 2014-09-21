@@ -1,0 +1,3 @@
+how to avoid infinite loops when crawling webpages?
+
+http://stackoverflow.com/questions/5834808/designing-a-web-crawler
