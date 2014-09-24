@@ -1,0 +1,5 @@
+Possible reasons of random crashes.
+1. random variable.
+2. Uninitialized Variable
+3. memory leak.
+4. external dependencies.
