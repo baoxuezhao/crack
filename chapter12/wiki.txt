@@ -1,0 +1,35 @@
+When coming out testing cases, be in a structured style.
+
+Test a Real-world Object
+  Step 1. who will use it, and why?
+  Step 2. what are the use cases?
+  Step 3. what are the bounds of use?
+  Step 4. What are the stress/failure conditions.
+  Step 5. How to perform the testing. automatically/manually?
+
+
+Test a Piece of Software.
+  1. Manual vs. Automated Testing
+  2. Black Box/ White Box Testing.
+  Step 1: Are we doing Black Box Testing or White Box Testing?
+  Step 2: Who will use it, and why?
+  Step 3: What are the use cases?
+  Step 4: What are the bounds of use?
+  Step 5: What are the stress conditions/failure conditions?
+  Step 6: What are the test cases? How would you perform the testing?
+          be in a structured style.
+
+
+How to Test a Function
+  Step 1. Define the Test Cases. test cases type:
+    1. odd/even
+    2. empty/non-empty
+    3. small/large
+    4. positive/negative
+    5. legal/Illegal input
+  
+  Step 2. Define the expected result.
+    1. If the function should not change the original array. we should validate that.
+  
+  Step 3. Write test code.
+    1. 
