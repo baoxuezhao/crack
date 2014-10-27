@@ -1,4 +1,5 @@
 //target, min number of unrecognized characters.
+//source: http://www.cnblogs.com/zhuli19901106/p/3698325.html
 #include <iostream>
 #include <vector>
 #include <unordered_set>
